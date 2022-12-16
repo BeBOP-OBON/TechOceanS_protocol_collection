@@ -2,8 +2,9 @@
   "@context": {
     "@vocab": "https://schema.org/"
   },
-  "@type": "CreativeWork",
+  "@type": "DigitalDocument",
   "@id": "https://example.org/id/XYZ",
+  "hasDigitalDocumentPermission": "embargoed",
   "name": "Name or title of the document",
   "description": "Description of the creative work to aid in searching",
   "url": "https://www.sample-data-repository.org/creativework/report.pdf",
@@ -27,16 +28,11 @@
     "value": "doi:10.5066/F7VX0DMQ",
     "url": "https://doi.org/10.5066/F7VX0DMQ"
   },
-  "keywords": {
-    "@type": "DefinedTerm",
-    "inDefinedTermSet": {
-      "@type": "DefinedTermSet",
-      "name": "Name of the set",
-      "description": "Description of the set",
-      "url": "url for the set"
-    },
-    "termCode": "A code that identifies this DefinedTerm within a DefinedTermSet"
-  },
+  "keywords": [
+    "keyword 1",
+    "keyword 2",
+    "keyword 3"
+  ],  
   "provider": {
     "@id": "https://www.repositoryB.org",
     "@type": "Organization",
@@ -50,5 +46,23 @@
     "@id": "https://www.publishingrus.org",
     "@type": "Organization",
     "legalName": "Some Institute"
-  }
+  },
+  "about": {
+    "@type": "Action",
+    "actionStatus": "PotentialActionStatus",
+    "name": "Name of the action",
+    "agent": "Organization or Person",
+    "participant": "Organization or Person",
+    "instrument": [
+      "instrument 1",
+      "instrument 2",
+      "instrument 3"
+    ],
+    "location": "Text - which locations are valid for actions supported by this protocol?",
+    "object": [
+      "object on which the action is taken",
+      "another object on which the action is taken"
+    ],
+    "result": "The result of the action - e.g. a DNA sample was generated"
+    }
 }
