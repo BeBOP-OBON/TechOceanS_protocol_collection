@@ -1,0 +1,68 @@
+{
+  "@context": {
+    "@vocab": " https://schema.org/"
+  },
+  "@type": "DigitalDocument", 
+  "hasDigitalDocumentPermission": "embargoed",
+  "name": "Real-time colorimetric loop-mediated isothermal amplification (LAMP): Standard Operating Procedure",
+  "description": "A standard operating procedure to carry out real-time LAMP",
+  "url": "",
+  "author": {
+    "@id": " https://orcid.org/0000-0002-4099-5394",
+    "@type": "Person",
+    "name": "Katherine Hartle-Mougiou",
+    "givenName": "Katherine",
+    "familyName": "Hartle-Mougiou"
+  },
+ "contributor": {
+    "@type": "Person",
+    "@id": "https://orcid.org/0000-0003-0074-554X",
+      "name": "Martha Valiadi",
+    "givenName": " Martha",
+    "familyName": "Valiadi"
+  },
+  "identifier": "",
+  "keywords": [
+    "Colorimetric loop-mediated isothermal amplification",
+    "Real-time",
+    "DNA amplification",
+    "Protocol",
+    "LAMP",
+    "SOP"
+    ],  
+  "provider": {
+    "@type": "Organization",      
+    "legalName": "FOUNDATION FOR RESEARCH AND TECHNOLOGY - HELLAS (FO.R.T.H.)",
+    "name": "Institute of Molecular Biology and Biotechnology - IMBB",
+    "url": " https://www.forth.gr/en/home/"
+  },
+  "license": "CC-BY",
+  "publisher": {
+    "@type": "Organization",
+    "legalName": "Better Biomolecular Ocean Protocols",
+    "url": " https://github.com/BeBOP-OBON"
+  },
+  "about": {
+    "@type": "Action",
+    "actionStatus": "PotentialActionStatus",
+    "name": "Colorimetric loop-mediated isothermal amplification (LAMP)",
+    "instrument": [
+      "IRIS prototype or Pebble device (BIOPIX-T)",
+      "Vortex",
+      "centrifuge"
+    ],
+    "location": "This protocol can be applied in a laboratory equipped for molecular biology testing",
+   
+"object": [
+      "PCR tubes",        
+      "WarmStart Colorimetric LAMP 2X Master Mix",
+      "mineral oil",
+      "DNA",
+      "molecular grade water",
+      "oligonucleotide primers",
+      "Pterois miles (lionfish) COI primers",
+      "Pseudo-nitzchia multistriata DabA primers"
+    ],
+    "result": "Change in colour index, indicating DNA amplification"
+    }
+}
