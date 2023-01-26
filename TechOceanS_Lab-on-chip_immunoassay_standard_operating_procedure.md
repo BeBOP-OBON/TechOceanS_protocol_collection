@@ -1,4 +1,4 @@
-![](RackMultipart20230126-1-5qs5w0_html_2148ad316082ec22.jpg)
+![image](https://user-images.githubusercontent.com/123385330/214904867-153a3ce9-68a1-428b-8865-5e78db282131.png)
 
 # **Lab-on-chip Immunoassay Standard Operating Procedure**
 
@@ -77,19 +77,19 @@ The marine contaminants of interest will be detected using a fluorescence-based 
 
 Controls to be included are negative control - blank sample (PBS alone coated on surface) and a positive control - a positive reference standard.
 
-![](RackMultipart20230126-1-5qs5w0_html_2d37b51360654f71.png)
+![image](https://user-images.githubusercontent.com/123385330/214904941-b947029e-b630-4a25-b7e2-018983384313.png)
 
 Figure 1. Illustration of a competitive immunoassay using bifenthrin detection as an example. Bifenthrin-keyhole limpet haemocyanin (Bif-KLH) is coated on the surface of the well, free bifenthrin is added along with a concentration optimised antibody against bifenthrin (anti-bifenthrin) to the solution. The free bifenthrin competes with Bif-KLH for binding towards anti-bifenthrin. A secondary antibody (anti-species antibody, in this case anti-mouse, because the anti-bifenthrin antibody was generated in a mouse) labelled with or HRP (horse radish peroxidase)) was added (concentration optimised) for detection. A suitable substrate is added and fluorescence is read.
 
 This SOP is intended to facilitate the incorporation ofthese assays onto a multiplex lab-on-chip system for the detection of multiple ocean contaminants bifenthrin, diclofenac, estrone and harmful algal toxins saxitoxin and domoic acid (Figure 2).
 
-![](RackMultipart20230126-1-5qs5w0_html_e41732a99dda5a7c.png)
+![image](https://user-images.githubusercontent.com/123385330/214904981-8386fa57-0b89-4a6d-934a-2ed780ebb357.png)
 
 Figure 2. Incorporation of immunoassays onto a multiplex LOC system. The disc is 120 mm in diameter with each well having a volume of 100 μL. The central hole on the disc is 15mm in diameter allowing it to be placed on a spindle mount of a centrifuge. A microchannel of PSA connects the wells allowing the fluid to flow linearly with manual air valves to control flow from well to well. The detection of contaminants diclofenac, bifenthrin, estrone, domoic acid and saxitoxin using competitive immunoassays will be incorporated onto the multi-plex disc.
 
 This SOP focuses on developing the competitive assay using a '2-well test-chip' (Figure 3), the '2-well test-chip' is comprised of test reservoir (top) and control reservoir (bottom).
 
-![](RackMultipart20230126-1-5qs5w0_html_2404cf85cd449a68.png)
+![image](https://user-images.githubusercontent.com/123385330/214905036-ac349304-9451-4697-b874-502956b3e7f7.png)
 
 Figure 3. Example of individual PMMA chip. 'Test' - top reservoir, control - bottom reservoir. The chip is fabricated from two layers of PMMA with a PSA layer bonding the layers. The chip has the dimensions of 20mm in width by 25mm in length. A. shows two reservoirs, top is test and bottom is control, the diagram shows, inlet and outlet valves and microfluidic channel connecting the test and control zone. B. Displays a photographic image of the chip including dimensions.
 
