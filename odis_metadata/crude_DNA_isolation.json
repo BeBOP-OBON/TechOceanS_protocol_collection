@@ -32,7 +32,8 @@
       "SOP"
       ],  
     "provider": {
-      "@type": "Organization",      "legalName": "FOUNDATION FOR RESEARCH AND TECHNOLOGY - HELLAS (FO.R.T.H.)",
+      "@type": "Organization",      
+      "legalName": "FOUNDATION FOR RESEARCH AND TECHNOLOGY - HELLAS (FO.R.T.H.)",
       "name": "Institute of Molecular Biology and Biotechnology - IMBB",
       "url": " https://www.forth.gr/en/home/"
     },
