@@ -1,0 +1,91 @@
+{
+    "@context": {
+      "@vocab": " https://schema.org/"
+    },
+    "@type": "DigitalDocument", 
+    "hasDigitalDocumentPermission": "open",
+  
+    "name": "Recombinase Polymerase Amplification RPA Assay Set-up Procedure",
+    "description": "This document provides a Standard Operating Procedure for the preparation of Recombinase Polymerase Amplification reaction mixtures using a standard molecular laboratory set-up. It describes the process and formulation required to set up an individual RPA reaction using the reagents available in the TwistAmp Liquid Exo kit, available from TwistDx Ltd. The method has been optimised at the National Oceanography Centre and is suitable for the real-time amplification of a varieity of DNA sequence targets.",
+  
+    "url": "",
+  
+    "author":
+		{
+		  "@type": "Person",
+		  "name": "Jonathan McQuillan",
+		  "givenName": "Jonathan ",
+		  "familyName": "McQuillan"
+		},
+  
+    "identifier": "",
+  
+    "keywords": [
+      "recombinase",
+      "eDNA",
+      "polymerase",
+      "amplicon",
+      "Recombinase Polymerase Amplification",
+      "SOP"
+      ],  
+  
+  
+    "provider": {
+      "@type": "Organization",      
+	  "legalName": "National Oceanography Centre",
+      "name": "National Oceanography Centre",
+      "url": "https://noc.ac.uk/"
+    },
+  
+  
+    "license": "CC-BY",
+  
+  
+    "publisher": {
+      "@type": "Organization",
+      "legalName": "Better Biomolecular Ocean Protocols",
+      "url": " https://github.com/BeBOP-OBON"
+    },
+  
+    "about": {
+      "@type": "Action",
+      "actionStatus": "PotentialActionStatus",
+      "name": "Recombinase Polymerase Amplification",
+      "instrument": [
+        "Thermo Block / Incubator",
+        "thermal cycler",
+        "water bath",
+        "Roche Light Cycler 480",
+        "micropipettes",
+	    	"centrifuge",
+        "isolation hood",
+        "Ultraviolet irradiation lamp",
+        "Nuclease or other DNA removal agents",
+        "ice containers",
+        "crushed ice machine",
+        "vortex mixer",
+        "freezer (-20 degrees Celsius)",
+        "aerosol-barrier micropippette tips",
+        "micropipettes",
+        "0.2 mL reaction tubes"
+      ],
+  
+      "location": "This protocol can be applied in a laboratory equipped for molecular biology testing",
+     
+  
+  "object": [
+        "TwistAmp Liquid kit",
+        "phosphate buffered saline",
+        "molecular grade water",
+        "eDNA",
+        "forward primer",
+        "reverse primer",
+        "dATP",
+        "dTTP",
+        "dCTP", 
+        "dGTP"
+      ],
+  
+      "result": "Aqueous solution containing amplicons from real-time amplification of a of defined DNA sequence targets"
+      }
+  }
