@@ -63,6 +63,10 @@
       "Pterois miles (lionfish) COI primers",
       "Pseudo-nitzchia multistriata DabA primers"
     ],
-    "result": "Change in colour index, indicating DNA amplification"
+    "result": [
+      "Change in colour index, indicating DNA amplification",
+      "Colorimetric signal",
+      "Light signal"
+    ]
     }
 }
