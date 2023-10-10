@@ -1,97 +1,81 @@
 {
-    "@context": {
-      "@vocab": " https://schema.org/"
+  "@context": {
+    "@vocab": " https://schema.org/"
+  },
+  "@type": "DigitalDocument",
+  "@id": "https://raw.githubusercontent.com/BeBOP-OBON/TechOceanS_protocol_collection/main/odis_metadata/RPA_CRISPR-Cas_Assay.json",
+  "hasDigitalDocumentPermission": "embargoed",
+  "name": "CRISPR Cas – RPA Assay: Standard Operating Procedure",
+  "description": "A standard operating procedure for the detection of eDNA from target species using a combined RPA/CRISPR-Cas protocol, which allows for the amplification of target-specific DNA, followed by its detection (fluorescence-based).",
+  "url": "https://oceandecade.org/actions/better-biomolecular-ocean-practices/",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Fiona Bracken",
+      "givenName": "Fiona",
+      "familyName": "Bracken"
     },
-    "@type": "DigitalDocument", 
-    "hasDigitalDocumentPermission": "embargoed",
-  
-    "name": "CRISPR Cas – RPA Assay: Standard Operating Procedure",
-    "description": "A standard operating procedure for the detection of eDNA from target species using a combined RPA/CRISPR-Cas protocol, which allows for the amplification of target-specific DNA, followed by its detection (fluorescence-based).",
-  
-    "url": "",
-  
-    "author": [
-		{
-		  "@type": "Person",
-		  "name": "Fiona Bracken",
-		  "givenName": "Fiona",
-		  "familyName": "Bracken"
-		},
-	    {
-		  "@type": "Person",
-		  "name": "Paola Drago",
-		  "givenName": " Paola",
-		  "familyName": "Drago"
-		},
-	    {
-		  "@type": "Person",
-		  "name": "Anne Parle-McDermott",
-		  "givenName": " Anne",
-		  "familyName": "Parle-McDermott"
-		},
-		{
-		  "@type": "Person",
-			"name": "Fiona Regan",
-		  "givenName": " Fiona",
-		  "familyName": "Regan"
-		}
-	
-	],
-  
-    "identifier": "",
-  
-    "keywords": [
-      "CRISPR-Cas",
+    {
+      "@type": "Person",
+      "name": "Paola Drago",
+      "givenName": " Paola",
+      "familyName": "Drago"
+    },
+    {
+      "@type": "Person",
+      "name": "Anne Parle-McDermott",
+      "givenName": " Anne",
+      "familyName": "Parle-McDermott"
+    },
+    {
+      "@type": "Person",
+      "name": "Fiona Regan",
+      "givenName": " Fiona",
+      "familyName": "Regan"
+    }
+  ],
+  "identifier": "",
+  "keywords": [
+    "CRISPR-Cas",
+    "eDNA",
+    "fluorescence-based detection",
+    "amplicon",
+    "Recombinase Polymerase Amplification",
+    "SOP"
+  ],
+  "provider": {
+    "@type": "Organization",
+    "legalName": "Dublin City University",
+    "name": "Dublin City University",
+    "url": "https://www.dcu.ie/"
+  },
+  "license": "CC-BY",
+  "publisher": {
+    "@type": "Organization",
+    "legalName": "Better Biomolecular Ocean Protocols",
+    "url": " https://github.com/BeBOP-OBON"
+  },
+  "about": {
+    "@type": "Action",
+    "actionStatus": "PotentialActionStatus",
+    "name": "Detection of eDNA from target species using a combined RPA/CRISPR-Cas protocol",
+    "instrument": [
+      "Thermo Block / Incubator",
+      "Roche Light Cycler 480",
+      "micropipettes",
+      "centrifuge"
+    ],
+    "location": "This protocol can be applied in a laboratory equipped for molecular biology testing",
+    "object": [
+      "RPA kit",
+      "Alt-R® A.s. Cas12a (Cpf1) V3, 500 µg",
+      "Alt-R® A.s. Cas12a crRNA, 10 nmol (gRNA)",
+      "Custom ssDNA-FQ Reporter",
+      "Phosphate Buffered Saline",
+      "Molecular grade water",
       "eDNA",
-      "fluorescence-based detection",
-      "amplicon",
-      "Recombinase Polymerase Amplification",
-      "SOP"
-      ],  
-  
-  
-    "provider": {
-      "@type": "Organization",      
-	  "legalName": "Dublin City University",
-      "name": "Dublin City University",
-      "url": "https://www.dcu.ie/"
-    },
-  
-  
-    "license": "CC-BY",
-  
-  
-    "publisher": {
-      "@type": "Organization",
-      "legalName": "Better Biomolecular Ocean Protocols",
-      "url": " https://github.com/BeBOP-OBON"
-    },
-  
-    "about": {
-      "@type": "Action",
-      "actionStatus": "PotentialActionStatus",
-      "name": "Detection of eDNA from target species using a combined RPA/CRISPR-Cas protocol",
-      "instrument": [
-        "Thermo Block / Incubator",
-        "Roche Light Cycler 480",
-        "micropipettes",
-		"centrifuge"
-      ],
-  
-      "location": "This protocol can be applied in a laboratory equipped for molecular biology testing",
-     
-  
-  "object": [
-        "RPA kit",        
-        "Alt-R® A.s. Cas12a (Cpf1) V3, 500 µg",
-        "Alt-R® A.s. Cas12a crRNA, 10 nmol (gRNA)",
-        "Custom ssDNA-FQ Reporter",
-        "Phosphate Buffered Saline",
-        "Molecular grade water",
-        "eDNA",
-        "primers"
-      ],
-  
-      "result": "Fluorescence emissions corresponding to DNA target sequences recognized by CRISPR-Cas12 mechanisms (FAM ƛex = 485 nm, ƛem = 535 nm)."
-      }
+      "primers"
+    ],
+    "result": "Fluorescence emissions corresponding to DNA target sequences recognized by CRISPR-Cas12 mechanisms (FAM ƛex = 485 nm, ƛem = 535 nm)."
   }
+}
