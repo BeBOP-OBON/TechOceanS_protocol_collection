@@ -1,69 +1,69 @@
 {
-    "@context": {
-      "@vocab": " https://schema.org/"
-    },
-    "@type": "DigitalDocument", 
-    "hasDigitalDocumentPermission": "embargoed",
-    "name": "Protocol for crude DNA isolation from phytoplankton: Standard Operating Procedure",
-    "description": "A standard operating procedure for the crude DNA isolation from phytoplankton cells",
-    "url": "",
-    "author": {
-      "@id": " https://orcid.org/0000-0002-4099-5394",
-      "@type": "Person",
-      "name": "Katherine Hartle-Mougiou",
-      "givenName": "Katherine",
-      "familyName": "Hartle-Mougiou"
-    },
-   "contributor": {
-      "@type": "Person",
-      "@id": "https://orcid.org/0000-0003-0074-554X",
-        "name": "Martha Valiadi",
-      "givenName": " Martha",
-      "familyName": "Valiadi"
-    },
-    "identifier": "",
-    "keywords": [
-      "crude DNA isolation",
-      "phytoplankton",
-      "GuHCl",
-      "Protocol",
-      "cell culture",
-      "magnetic beads",
-      "SOP"
-      ],  
-    "provider": {
-      "@type": "Organization",      
-      "legalName": "FOUNDATION FOR RESEARCH AND TECHNOLOGY - HELLAS (FO.R.T.H.)",
-      "name": "Institute of Molecular Biology and Biotechnology - IMBB",
-      "url": " https://www.forth.gr/en/home/"
-    },
-    "license": "CC-BY",
-    "publisher": {
-      "@type": "Organization",
-      "legalName": "Better Biomolecular Ocean Protocols",
-      "url": " https://github.com/BeBOP-OBON"
-    },
-    "about": {
-      "@type": "Action",
-      "actionStatus": "PotentialActionStatus",
-      "name": "Protocol for crude DNA isolation from phytoplankton",
-      "instrument": [
-        "pipette",
-        "magnetic rack",
-        "centrifuge"
-      ],
-      "location": "This protocol can be applied in a laboratory equipped for molecular biology testing",
+  "@context": {
+    "@vocab": " https://schema.org/"
+  },
+  "@type": "DigitalDocument",
+  "@id": "https://raw.githubusercontent.com/BeBOP-OBON/TechOceanS_protocol_collection/main/odis_metadata/crude_DNA_isolation.json",
+  "hasDigitalDocumentPermission": "embargoed",
+  "name": "Protocol for crude DNA isolation from phytoplankton: Standard Operating Procedure",
+  "description": "A standard operating procedure for the crude DNA isolation from phytoplankton cells",
+  "url": "https://oceandecade.org/actions/better-biomolecular-ocean-practices/",
+  "author": {
+    "@id": " https://orcid.org/0000-0002-4099-5394",
+    "@type": "Person",
+    "name": "Katherine Hartle-Mougiou",
+    "givenName": "Katherine",
+    "familyName": "Hartle-Mougiou"
+  },
+  "contributor": {
+    "@type": "Person",
+    "@id": "https://orcid.org/0000-0003-0074-554X",
+    "name": "Martha Valiadi",
+    "givenName": " Martha",
+    "familyName": "Valiadi"
+  },
+  "identifier": "",
+  "keywords": [
+    "crude DNA isolation",
+    "phytoplankton",
+    "GuHCl",
+    "Protocol",
+    "cell culture",
+    "magnetic beads",
+    "SOP"
+  ],
+  "provider": {
+    "@type": "Organization",
+    "legalName": "FOUNDATION FOR RESEARCH AND TECHNOLOGY - HELLAS (FO.R.T.H.)",
+    "name": "Institute of Molecular Biology and Biotechnology - IMBB",
+    "url": " https://www.forth.gr/en/home/"
+  },
+  "license": "CC-BY",
+  "publisher": {
+    "@type": "Organization",
+    "legalName": "Better Biomolecular Ocean Protocols",
+    "url": " https://github.com/BeBOP-OBON"
+  },
+  "about": {
+    "@type": "Action",
+    "actionStatus": "PotentialActionStatus",
+    "name": "Protocol for crude DNA isolation from phytoplankton",
+    "instrument": [
+      "pipette",
+      "magnetic rack",
+      "centrifuge"
+    ],
+    "location": "This protocol can be applied in a laboratory equipped for molecular biology testing",
     "object": [
-        "GuHCl",        
-        "Seawater",
-        "cell culture",
-        "DNA",
-        "molecular grade water",
-        "magnetic beads",
-        "1.5ml tubes",
-        "isopropanol"
-      ],
-  
-      "result": "Crude isolation of phytoplankton DNA"
-      }
+      "GuHCl",
+      "Seawater",
+      "cell culture",
+      "DNA",
+      "molecular grade water",
+      "magnetic beads",
+      "1.5ml tubes",
+      "isopropanol"
+    ],
+    "result": "Crude isolation of phytoplankton DNA"
   }
+}
