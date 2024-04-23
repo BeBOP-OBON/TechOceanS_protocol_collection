@@ -1,6 +1,6 @@
 {
   "@context": {
-    "@vocab": " https://schema.org/"
+    "@vocab": "https://schema.org/"
   },
   "@type": "DigitalDocument",
   "@id": "https://raw.githubusercontent.com/BeBOP-OBON/TechOceanS_protocol_collection/main/odis_metadata/RPA_CRISPR-Cas_Assay.json",
