@@ -2,11 +2,12 @@
   "@context": {
     "@vocab": " https://schema.org/"
   },
-  "@type": "DigitalDocument", 
+  "@type": "DigitalDocument",
+  "@id": "https://raw.githubusercontent.com/BeBOP-OBON/TechOceanS_protocol_collection/main/odis_metadata/Colorimetric_LAMP.json",
   "hasDigitalDocumentPermission": "embargoed",
   "name": "Real-time colorimetric loop-mediated isothermal amplification (LAMP): Standard Operating Procedure",
   "description": "A standard operating procedure to carry out real-time LAMP",
-  "url": "",
+  "url": "https://oceandecade.org/actions/better-biomolecular-ocean-practices/",
   "author": {
     "@id": " https://orcid.org/0000-0002-4099-5394",
     "@type": "Person",
@@ -14,10 +15,10 @@
     "givenName": "Katherine",
     "familyName": "Hartle-Mougiou"
   },
- "contributor": {
+  "contributor": {
     "@type": "Person",
     "@id": "https://orcid.org/0000-0003-0074-554X",
-      "name": "Martha Valiadi",
+    "name": "Martha Valiadi",
     "givenName": " Martha",
     "familyName": "Valiadi"
   },
@@ -29,9 +30,9 @@
     "Protocol",
     "LAMP",
     "SOP"
-    ],  
+  ],
   "provider": {
-    "@type": "Organization",      
+    "@type": "Organization",
     "legalName": "FOUNDATION FOR RESEARCH AND TECHNOLOGY - HELLAS (FO.R.T.H.)",
     "name": "Institute of Molecular Biology and Biotechnology - IMBB",
     "url": " https://www.forth.gr/en/home/"
@@ -52,9 +53,8 @@
       "centrifuge"
     ],
     "location": "This protocol can be applied in a laboratory equipped for molecular biology testing",
-   
-"object": [
-      "PCR tubes",        
+    "object": [
+      "PCR tubes",
       "WarmStart Colorimetric LAMP 2X Master Mix",
       "mineral oil",
       "DNA",
@@ -68,5 +68,5 @@
       "Colorimetric signal",
       "Light signal"
     ]
-    }
+  }
 }
